@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="395.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.taliorproject.AdminPanel.AdminPanelController">
+   <children>
+      <PieChart fx:id="pieChart" layoutX="254.0" layoutY="160.0" prefHeight="176.0" prefWidth="200.0" />
+      <ImageView fitHeight="437.0" fitWidth="600.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bg-Photoroom%20(1).png" />
+         </image>
+      </ImageView>
+      <Label layoutX="227.0" layoutY="14.0" text="Admin Panel" textFill="BROWN" underline="true">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="53.0" layoutX="164.0" layoutY="72.0" stroke="WHITE" strokeType="INSIDE" width="101.0" />
+      <Line endX="-88.0" endY="-55.5" layoutX="353.0" layoutY="150.0" startX="-189.0" startY="-55.5" stroke="#fffdfd" />
+      <Label layoutX="171.0" layoutY="73.0" prefHeight="11.0" prefWidth="87.0" text="Order in Process" textFill="BROWN" />
+      <Label layoutX="282.0" layoutY="73.0" text="Orders Recieved" textFill="BROWN" />
+      <Label layoutX="394.0" layoutY="73.0" text="Order Delivered" textFill="BROWN" />
+      <Line endX="-88.0" endY="-55.5" layoutX="575.0" layoutY="151.0" startX="-189.0" startY="-55.5" stroke="#fffdfd" />
+      <Line endX="-87.0" endY="-64.0" layoutX="463.0" layoutY="159.0" startX="-189.0" startY="-64.0" stroke="#fffdfd" />
+      <Label fx:id="lbl1" alignment="CENTER" layoutX="171.0" layoutY="99.0" prefHeight="17.0" prefWidth="85.0" />
+      <Label fx:id="lbl2" alignment="CENTER" layoutX="282.0" layoutY="101.0" prefHeight="17.0" prefWidth="85.0" />
+      <Label fx:id="lbl3" alignment="CENTER" layoutX="399.0" layoutY="100.0" prefHeight="17.0" prefWidth="77.0" />
+      <PieChart fx:id="pichartt" layoutX="200.0" layoutY="144.0" prefHeight="176.0" prefWidth="166.0" />
+      <Button fx:id="custenroll" disable="true" layoutX="441.0" layoutY="144.0" mnemonicParsing="false" onAction="#opencustenroll" prefHeight="29.0" prefWidth="159.0" style="-fx-background-color: brown;" text="Customer Enrollment" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </Button>
+      <Button fx:id="workconsle" disable="true" layoutX="441.0" layoutY="255.0" mnemonicParsing="false" onAction="#openworker" prefHeight="29.0" prefWidth="159.0" style="-fx-background-color: brown;" text="Worker Console" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </Button>
+      <Button fx:id="measrexpl" disable="true" layoutX="441.0" layoutY="218.0" mnemonicParsing="false" onAction="#openmeasexp" prefHeight="29.0" prefWidth="159.0" style="-fx-background-color: brown;" text="Measurement Explorer" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </Button>
+      <Button fx:id="measr" disable="true" layoutX="441.0" layoutY="180.0" mnemonicParsing="false" onAction="#openmeasu" prefHeight="29.0" prefWidth="159.0" style="-fx-background-color: brown;" text="Measurements" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </Button>
+      <Button fx:id="oderdelivery" disable="true" layoutX="441.0" layoutY="364.0" mnemonicParsing="false" onAction="#opendel" prefHeight="29.0" prefWidth="159.0" style="-fx-background-color: brown;" text="Order Delivery" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </Button>
+      <Button fx:id="rdyprod" disable="true" layoutX="441.0" layoutY="328.0" mnemonicParsing="false" onAction="#openready" prefHeight="29.0" prefWidth="159.0" style="-fx-background-color: brown;" text="Ready Products" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </Button>
+      <Button fx:id="worklist" disable="true" layoutX="441.0" layoutY="291.0" mnemonicParsing="false" onAction="#openlist" prefHeight="29.0" prefWidth="159.0" style="-fx-background-color: brown;" text="Worker List" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </Button>
+      <ImageView fitHeight="29.0" fitWidth="39.0" layoutX="412.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@enroll.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="39.0" layoutX="412.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@measuring-tape_2769731.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="39.0" layoutX="412.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@zoom_2280494.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="39.0" layoutX="412.0" layoutY="255.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@worker_1670446.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="39.0" layoutX="412.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@builders_7428633.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="39.0" layoutX="412.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@box_6111352.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="39.0" layoutX="412.0" layoutY="364.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@food-delivery_11477977.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="328.0" layoutY="345.0" mnemonicParsing="false" onAction="#dounlock" style="-fx-background-color: brown;" text="Unlock" textFill="WHITE">
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </Button>
+      <PasswordField fx:id="dopass" layoutX="211.0" layoutY="345.0" prefHeight="25.0" prefWidth="109.0" />
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="533.0" layoutY="14.0" onMouseClicked="#onclickonimage" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@exit.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="38.0" fitWidth="53.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#dorefresh" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@reload_new.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="53.0" layoutX="275.0" layoutY="72.0" stroke="WHITE" strokeType="INSIDE" width="101.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="53.0" layoutX="386.0" layoutY="72.0" stroke="WHITE" strokeType="INSIDE" width="101.0" />
+   </children>
+</AnchorPane>
