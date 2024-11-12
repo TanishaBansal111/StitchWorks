@@ -19,5 +19,5 @@ Email Notifications: Automated email notifications for order confirmation and de
 Technology Stack: Language: Java GUI Framework: JavaFX Database: MySQL (for storing customer, worker, and order details)
 
 Owner Login Page:
-<img src="https://github.com/user-attachments/assets/1b49a4d8-cd77-4f5f-af08-bc200199aa4a" width="300" height="250">
+![image](https://github.com/user-attachments/assets/e21bd419-24dc-42a5-86d8-43effa97cdd9)
 
