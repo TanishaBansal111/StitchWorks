@@ -21,3 +21,7 @@ Technology Stack: Language: Java GUI Framework: JavaFX Database: MySQL (for stor
 Owner Login Page:
 ![image](https://github.com/user-attachments/assets/e21bd419-24dc-42a5-86d8-43effa97cdd9)
 
+Owner's DashBoard:
+![image](https://github.com/user-attachments/assets/25c23cf6-d8ee-4a34-913e-a9b13aa58aa4)
+
+
